@@ -1,0 +1,17 @@
+package Metodos_II;
+
+public class Ejercicios_Metodos_II {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String alumno1, alumno2;
+		
+		alumno1= "Cristian";
+		alumno2= "Cristian";
+		
+		System.out.println(alumno1.equals(alumno2));
+
+	}
+
+}
