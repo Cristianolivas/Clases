@@ -19,6 +19,18 @@ public class Electrodomestico {
 		peso=5;
 		
 	}
+
+
+
+	public Electrodomestico(int precioBase, int peso, String color, String consumoEnergetico) {
+		super();
+		this.precioBase = precioBase;
+		this.peso = peso;
+		this.color = color;
+		this.consumoEnergetico = consumoEnergetico;
+	}
+	
+	
 		
 	}
 		
