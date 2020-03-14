@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4F76FC4-8D05-CFFA-183D-00440FD9501A" name="RESPUESTAS">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:30:26 UTC</createdTime>
+<generatorID>F6DC896B-65B8-C52C-79CA-3E325C3A670F</generatorID>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RESPUESTAS_ID" id="DF42130F-0302-AF47-E451-8922500AF351">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:30:26 UTC</createdTime>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="RESULTADO" id="BFB8C2C7-3C0C-439F-7E1E-4CE7B15EC7CE">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:46:27 UTC</createdTime>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F6D47AE-F794-3820-0438-5C4F9A7035B4" name="RESPUESTAS_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:30:26 UTC</createdTime>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="DF42130F-0302-AF47-E451-8922500AF351"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

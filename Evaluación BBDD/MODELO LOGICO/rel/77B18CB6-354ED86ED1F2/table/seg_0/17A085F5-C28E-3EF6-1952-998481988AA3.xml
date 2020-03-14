@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17A085F5-C28E-3EF6-1952-998481988AA3" name="ALTERNATIVAS">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:30:26 UTC</createdTime>
+<generatorID>C75D17AC-1DA6-5953-85C7-146E5C067D47</generatorID>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RESPUESTAS_RESPUESTAS_ID" id="FD757991-1BB2-53AB-2995-CB1220D436E2">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:30:26 UTC</createdTime>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D38F08A3-5CDC-1A62-43B3-8846CBD2046E" referredColumn="DF42130F-0302-AF47-E451-8922500AF351"/>
+</associations>
+</Column>
+<Column name="PREGUNTAS_PREGUNTAS_ID" id="51C223C4-5649-00AE-E6DC-DA03A7643EF4">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:31:25 UTC</createdTime>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6416BD3E-1084-C0CF-D0F0-23C3E2389974" referredColumn="4DE57DFF-7639-9173-C919-1D7AF2AC5EC1"/>
+</associations>
+</Column>
+<Column name="DESCRIPCION" id="DF1B8F58-EF3F-CAEA-3A8C-D1BE9501942E">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:44:31 UTC</createdTime>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_LOGICO" id="2A55DB91-AA63-F5AB-A8A1-542A12ADEF08">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:44:31 UTC</createdTime>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PORCENTAJE" id="4CC893CC-98DD-2D90-4126-5027346D07C6">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:44:31 UTC</createdTime>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C2112CE-9FD0-8CBC-D0BE-916E19C78D23" name="ALTERNATIVAS_RESPUESTAS_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:30:26 UTC</createdTime>
+<generatorID>37F4A805-BA31-2F55-89BC-D49D6DEAC02F</generatorID>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD757991-1BB2-53AB-2995-CB1220D436E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C36958FC-2062-E825-919B-532BFEE021C4" name="ALTERNATIVAS_PREGUNTAS_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:31:25 UTC</createdTime>
+<generatorID>3664576C-F88F-981D-713E-AF800ACF4A04</generatorID>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51C223C4-5649-00AE-E6DC-DA03A7643EF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D634D5F-9BB4-055C-63D6-18CE17780F27" name="TEST">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:30:26 UTC</createdTime>
+<generatorID>FC823F01-22F6-8213-A8A5-5C24747F7902</generatorID>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TEST_ID" id="35363B21-2290-94A4-BB6C-E1C8D77656C9">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:32:14 UTC</createdTime>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="NOMBRE" id="FBE327D5-D6A6-2F9D-23AE-D6605F8B6B76">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:38:43 UTC</createdTime>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="5EF65FC5-84CF-8DDF-9173-EBCA8FE2BA85">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:38:43 UTC</createdTime>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROGRAMA" id="53ADBA71-A022-A7C6-561D-62B809974B12">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:38:43 UTC</createdTime>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIDAD" id="ED5AE1F0-D5B1-B357-7D42-1CEDA457F8DF">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:38:43 UTC</createdTime>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUTOR" id="FD32B925-B22A-11DF-F1B7-2B7F559A1514">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:38:43 UTC</createdTime>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="20679E22-F06F-6596-F24A-1E8F66662F2B">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:38:43 UTC</createdTime>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24D8D79A-6428-3605-F2EE-D71E7A032663" name="TEST_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:32:14 UTC</createdTime>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="35363B21-2290-94A4-BB6C-E1C8D77656C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

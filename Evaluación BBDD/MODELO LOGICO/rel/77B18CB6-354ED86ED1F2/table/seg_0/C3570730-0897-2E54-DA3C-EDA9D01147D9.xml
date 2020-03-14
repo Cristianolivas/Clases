@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3570730-0897-2E54-DA3C-EDA9D01147D9" name="CURSO">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:30:26 UTC</createdTime>
+<generatorID>1DA99A90-FE4D-C586-7691-394431E9A94B</generatorID>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CURSO_ID" id="A455239A-3744-3F1D-9431-4A2E0AC00F73">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:34:14 UTC</createdTime>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="TEST_TEST_ID" id="5A5DF07A-09D9-D5CE-CEA0-35F802A32FC6">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:34:14 UTC</createdTime>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9951249E-1E27-12C2-4E9D-64E011CD411C" referredColumn="35363B21-2290-94A4-BB6C-E1C8D77656C9"/>
+</associations>
+</Column>
+<Column name="PROGRAMA" id="E048461B-1D7D-0AF6-803C-D68F9D1F0DE3">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:48:33 UTC</createdTime>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8AEEE9F-E237-8BF1-F345-CDA3923A4BED" name="CURSO_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:34:14 UTC</createdTime>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="A455239A-3744-3F1D-9431-4A2E0AC00F73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F00FDEA-7236-22CF-D90A-CB0ADB3E40EF" name="CURSO_TEST_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:34:14 UTC</createdTime>
+<generatorID>D7413D8C-C990-E4D8-B18E-6F0A71C4D874</generatorID>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A5DF07A-09D9-D5CE-CEA0-35F802A32FC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

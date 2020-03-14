@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VARIAS" directorySegmentName="seg_0" id="3664576C-F88F-981D-713E-AF800ACF4A04">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:31:11 UTC</createdTime>
+<ownerDesignName>MODELO LOGICO</ownerDesignName>
+<engineerTo>
+<item key="77B18CB6-5197-7286-B8EC-354ED86ED1F2" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>691861E3-0913-97AC-867B-C0AFEF74CE32</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C75D17AC-1DA6-5953-85C7-146E5C067D47</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
